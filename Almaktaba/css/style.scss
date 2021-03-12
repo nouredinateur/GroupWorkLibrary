@@ -1,0 +1,310 @@
+$white : white;
+$blue : #1BC0DE;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+$ubuntuFont : 'Ubuntu', sans-serif;
+$cambayFont : 'Cambay', sans-serif;
+$molengoFont : 'Molengo', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    color: $white;
+    background-color: $blue;
+    width: 100%;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: height 2s;
+    div{
+        margin-left: 10%;
+        ul{
+                a {
+                    padding: 15px;
+                    li {
+                        display: inline;
+                }
+            }
+        }
+    }
+    .hamMenu{
+        padding: 0;
+        margin: 0;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        i{
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.clicked{
+    background-color: $white;
+    color: #1BC0DE;
+    border-radius: 15px;
+    border-radius: transparent;
+    border: transparent;
+    box-shadow: 0px 0px 5px grey;
+    height: 40px;
+    width: 80px;
+}
+.clicked:hover{
+    background-color: $blue;
+    color: $white;
+    box-shadow: 0px 0px 5px grey;
+}
+.firstSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    // margin-left: 10%;
+    // margin-right: 10%;
+    margin-top: 200px;
+    #left{
+        width: 40%;
+        height: 100%;
+    }
+    #right{
+        margin-top: 100px;
+        width:40%;
+        height: 100%;
+    }
+    h1{
+        font-family: $ubuntuFont;
+        font-size: 50px;
+    }
+    p{
+        font-family: $cambayFont;
+        margin-top: 40px;
+    }
+    button{
+        width: 200px;
+        height: 60px;
+        border: transparent;
+        border-radius: 15px;
+        background-color: $blue;
+        color: $white;
+        margin-top: 80px;
+        font-family: $cambayFont;
+        box-shadow: 0px 0px 2px grey;
+    }
+    button:hover{
+        background-color: $white;
+        color: $blue;
+    }
+
+}
+#menu{
+    display: none;
+}
+
+#CategoriesHandle{
+    width: 200px;
+    height: 30px;
+    background-color: $white;
+    box-shadow: 0px 0px 3px grey;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    position: absolute;
+    left: 44.5%;
+    right: 43%;
+    bottom: 0;
+    font-family: $molengoFont;
+}
+.categories{
+    width: 100%;
+    height: 300px;
+    background-color: $blue;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #horror{
+        border: transparent;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 300px;
+        height: 220px;
+    }
+    #img{
+        border-radius: 15px;
+        width: 300px;
+        height: 230px;
+    }
+}
+.bestBooks{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    #Drawingholder{
+        width: 50%;
+        img{
+            margin-top: 100px;
+            width: 830px;
+            height: 550px;
+        }
+        #bbtext{
+            width: 100%;
+            text-align: center;
+            margin-left: 50%;
+            font-family: $cambayFont;
+        }
+    }
+}
+.shelve{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    div{
+        width: 320px;
+        height: 480px;
+        background-color: white;
+        box-shadow: 0px 0px 3px grey;
+        border-radius: 13px;
+        margin-left: 20px;
+        margin-right: 20px;
+        img{
+            box-shadow: 0px 0px 3px grey;
+            width: 320px;
+            height: 480px;
+            border-radius: 13px;
+        }
+    }
+}
+#wholescreen{
+    height: 1000px;
+    transition: height 2s;
+    div{
+        margin:0;
+        #nav{
+                display: block;
+                color: black;
+                list-style: none;
+                a{
+                    display: list-item;
+                    margin-top: 50px;
+                    margin-left: 45%;
+                    margin-right: 40%;
+                }
+    }
+    #menu{
+        margin:0;
+        padding:0;
+        display:block;
+    }
+
+}
+}
+#head{
+    height: 40px;
+    ul{
+        display: none;
+    }
+}
+@media (max-width: 874px) {
+    // header{
+    //     div{
+    //         margin:0;
+    //     }
+    // }
+    // #nav{
+    //     color: black;
+    //     list-style: none;
+    //     a{
+    //         display: list-item;
+    //         margin-top: 50px;
+    //         margin-left: 45%;
+    //         margin-right: 40%;
+    //     }
+    // }
+    #menu{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .firstSection{
+        margin-top: 50px;
+        flex-direction: column;
+        #left{
+            font-size: 12px;
+            h1{
+                font-size: 23px;
+            }
+        }
+        #right{
+            margin-top: 0;
+            img{
+                width: 400px;
+            }
+        }
+    }
+    .categories{
+        flex-direction: column;
+        height: 1000px;
+        div{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    .shelve{
+        flex-direction: column;
+        align-items: center;
+        div{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    #CategoriesHandle{
+        width: 100px;
+    }
+}
+
+//SIMOO  
+
+.blank{
+    width: 100%;
+    height: 200px;
+}
+footer{
+    background-color: #1BC0DE;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    i{
+        color: white;
+        font-size: 30px;
+
+    }
+
+    h3{
+    padding-top: 0px;
+    padding-left: 10px;
+    color:white;
+    font-size: 15px;
+    }
+
+    .footer{
+        padding-left: 50px;
+        display: flex;
+        margin-top: 15px;
+    }
+
+}
