@@ -16,7 +16,7 @@
   border: transparent;
   -webkit-box-shadow: 0px 0px 2px gray;
           box-shadow: 0px 0px 2px gray;
-  color: #1BC0DE;
+  color: #1bc0de;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -43,31 +43,31 @@
 }
 
 .filter ::-webkit-input-placeholder {
-  color: #1BC0DE;
+  color: #1bc0de;
   font-size: 14px;
   font-family: "Cambay", sans-serif;
 }
 
 .filter :-ms-input-placeholder {
-  color: #1BC0DE;
+  color: #1bc0de;
   font-size: 14px;
   font-family: "Cambay", sans-serif;
 }
 
 .filter ::-ms-input-placeholder {
-  color: #1BC0DE;
+  color: #1bc0de;
   font-size: 14px;
   font-family: "Cambay", sans-serif;
 }
 
 .filter ::placeholder {
-  color: #1BC0DE;
+  color: #1bc0de;
   font-size: 14px;
   font-family: "Cambay", sans-serif;
 }
 
 .filter button {
-  background-color: #1BC0DE;
+  background-color: #1bc0de;
   width: 3%;
   height: 31px;
   border-radius: 10px;
@@ -85,14 +85,14 @@
 h1 {
   font-family: "Ubuntu", sans-serif;
   text-align: center;
-  color: #1BC0DE;
+  color: #1bc0de;
   text-decoration: underline;
-  -webkit-text-decoration-color: #1BC0DE;
-          text-decoration-color: #1BC0DE;
+  -webkit-text-decoration-color: #1bc0de;
+          text-decoration-color: #1bc0de;
 }
 
 .books {
-  background-color: #1BC0DE;
+  background-color: #1bc0de;
 }
 
 .grid-container {
@@ -146,9 +146,9 @@ h1 {
      object-fit: contain;
 }
 
-/*------------footer------------*/
+/*-------------------------footer---------------------------*/
 footer {
-  background-color: #1BC0DE;
+  background-color: #1bc0de;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,27 +212,27 @@ footer .footer {
        object-fit: contain;
   }
   .filter ::-webkit-input-placeholder {
-    color: #1BC0DE;
+    color: #1bc0de;
     font-size: 14px;
     font-family: "Cambay", sans-serif;
   }
   .filter :-ms-input-placeholder {
-    color: #1BC0DE;
+    color: #1bc0de;
     font-size: 14px;
     font-family: "Cambay", sans-serif;
   }
   .filter ::-ms-input-placeholder {
-    color: #1BC0DE;
+    color: #1bc0de;
     font-size: 14px;
     font-family: "Cambay", sans-serif;
   }
   .filter ::placeholder {
-    color: #1BC0DE;
+    color: #1bc0de;
     font-size: 14px;
     font-family: "Cambay", sans-serif;
   }
   .filter button {
-    background-color: #1BC0DE;
+    background-color: #1bc0de;
     width: 15%;
     height: 31px;
     border-radius: 10px;
@@ -248,13 +248,13 @@ footer .footer {
   h1 {
     font-family: "Ubuntu", sans-serif;
     text-align: center;
-    color: #1BC0DE;
+    color: #1bc0de;
     text-decoration: underline;
-    -webkit-text-decoration-color: #1BC0DE;
-            text-decoration-color: #1BC0DE;
+    -webkit-text-decoration-color: #1bc0de;
+            text-decoration-color: #1bc0de;
   }
   .books {
-    background-color: #1BC0DE;
+    background-color: #1bc0de;
   }
   .grid-container {
     display: -ms-grid;
@@ -298,7 +298,7 @@ footer .footer {
     -o-object-fit: contain;
        object-fit: contain;
   }
-  /*------------footer------------*/
+  /*-----------------------footer------------------------*/
   footer {
     display: none;
   }

@@ -1,131 +1,128 @@
-.adding{
+.adding {
+  border-radius: 15px;
+  border: transparent;
+  box-shadow: 0px 0px 10px gray;
+  width: 100%;
+  margin-top: 5%;
+
+  input {
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: 0px 0px 5px gray;
+    margin-top: 16px;
+    margin-left: 5%;
+    width: 61%;
+    height: 40px;
+  }
+
+  button {
+    background-color: #1bc0de;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: 0px 0px 2px gray;
+    margin-left: 66%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    width: 30%;
+    height: 40px;
+    color: white;
+  }
+}
+
+// ------------------------------------table----------------------------------------- //
+
+.table-holder {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  table {
+    width: 90%;
+    border: transparent;
+    box-shadow: 0px 0px 5px gray;
+    border-collapse: collapse;
+  }
+
+  td {
+    border: 1px solid gray;
+  }
+}
+
+/*------------footer------------*/
+
+footer {
+  background-color: #1bc0de;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  i {
+    color: white;
+    font-size: 30px;
+  }
+
+  h3 {
+    padding-top: 0px;
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .footer {
+    padding-left: 50px;
+    display: flex;
+    margin-top: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .adding {
     border-radius: 15px;
     border: transparent;
     box-shadow: 0px 0px 10px gray;
     width: 100%;
     margin-top: 5%;
 
-    input{
-        border-radius: 10px;
-        border: transparent;
-        box-shadow: 0px 0px 5px gray;
-        margin-top: 16px;
-        margin-left: 5%;
-        width: 61%;
-        height: 40px;
-    }
-    button{
-        background-color:#1BC0DE ;
-        border-radius: 10px;
-        border: transparent;
-        box-shadow: 0px 0px 2px gray;
-        margin-left: 66%;
-        margin-top: 5%;
-        margin-bottom: 3%;
-        width: 30%;
-        height: 40px;
-        color: white;
-       
-    }
-}
-
-// ------------------------------------table----------------------------------------- //
-.table-holder{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-
-    table{
-        width: 90%;
-        border: transparent;
-        box-shadow: 0px 0px 5px gray;
-        border-collapse: collapse;
-    }
-
-    td {
-        border: 1px solid gray;
-      }
-    
-}
-
-/*------------footer------------*/
-
-footer{
-    background-color: #1BC0DE;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    
-    i{
-        color: white;
-        font-size: 30px;
-        
-    }
-
-    h3{
-    padding-top: 0px;
-    padding-left: 10px;
-    color:white;
-    font-size: 15px;
-    }
-
-    .footer{
-        padding-left: 50px;
-        display: flex;
-        margin-top: 15px;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1200px){
-    .adding{
-        border-radius: 15px;
-        border: transparent;
-        box-shadow: 0px 0px 10px gray;
-        width: 100%;
-        margin-top: 5%;
-    
-        input{
-            border-radius: 10px;
-            border: transparent;
-            box-shadow: 0px 0px 5px gray;
-            margin-top: 16px;
-            margin-left: 5%;
-            width: 61%;
-            height: 40px;
-        }
-        button{
-            background-color:#1BC0DE ;
-            border-radius: 10px;
-            border: transparent;
-            box-shadow: 0px 0px 2px gray;
-            margin-left: 66%;
-            margin-top: 5%;
-            margin-bottom: 3%;
-            width: 30%;
-            height: 40px;
-            color: white;
-           
-        }
+    input {
+      border-radius: 10px;
+      border: transparent;
+      box-shadow: 0px 0px 5px gray;
+      margin-top: 16px;
+      margin-left: 5%;
+      width: 61%;
+      height: 40px;
     }
     
+    button {
+      background-color: #1bc0de;
+      border-radius: 10px;
+      border: transparent;
+      box-shadow: 0px 0px 2px gray;
+      margin-left: 66%;
+      margin-top: 5%;
+      margin-bottom: 3%;
+      width: 30%;
+      height: 40px;
+      color: white;
+    }
+  }
 }

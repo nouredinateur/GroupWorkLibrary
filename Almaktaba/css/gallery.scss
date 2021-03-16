@@ -1,83 +1,233 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap%27');
-@import url('https://fonts.googleapis.com/css2?family=Cambay&display=swap%27');
-$ubuntuFont : 'Ubuntu', sans-serif;
-$cambayFont : 'Cambay', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Cambay&display=swap%27");
+$ubuntuFont: "Ubuntu", sans-serif;
+$cambayFont: "Cambay", sans-serif;
 // *{
 //     padding: 0%;
 //     margin: 0%;
 // }
 
-.filter{
-    display: flex;
-    justify-content: center;
+.filter {
+  display: flex;
+  justify-content: center;
 
-    select{
-        width: 54%;
-        height: 34px;
-        border-radius: 10px;
-        border: transparent;
-        box-shadow: 0px 0px 2px gray;
-        color: #1BC0DE;
-        font-family: $ubuntuFont;
-    }
+  select {
+    width: 54%;
+    height: 34px;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: 0px 0px 2px gray;
+    color: #1bc0de;
+    font-family: $ubuntuFont;
+  }
 
-    input{
-        border-radius: 10px;
-        border: transparent;
-        box-shadow: 0px 0px 2px gray;
-        margin-left: 5px;
-    }
+  input {
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: 0px 0px 2px gray;
+    margin-left: 5px;
+  }
 
-    #max{
-        width: 6%;
-        height: 30px;
-        object-fit: contain;
-    }
-    
-    #min{
-        width: 6%;
-        height: 30px;
-        object-fit: contain;
-    }
+  #max {
+    width: 6%;
+    height: 30px;
+    object-fit: contain;
+  }
 
-    ::placeholder{
-        color: #1BC0DE;
-        font-size: 14px;
-        font-family: $cambayFont;
-    }
+  #min {
+    width: 6%;
+    height: 30px;
+    object-fit: contain;
+  }
 
-    button{
-        background-color:#1BC0DE ;
-        width: 3%;
-        height: 31px;
-        border-radius: 10px;
-        border: transparent;
-        box-shadow: 0px 0px 2px gray;
-        margin-left: 5px;
-        i{
-            color: white;
-        }
-    }
+  ::placeholder {
+    color: #1bc0de;
+    font-size: 14px;
+    font-family: $cambayFont;
+  }
 
+  button {
+    background-color: #1bc0de;
+    width: 3%;
+    height: 31px;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: 0px 0px 2px gray;
+    margin-left: 5px;
+    i {
+      color: white;
+    }
+  }
 }
 
 /*------------------------ books------------------------*/
 
-h1{
-    font-family: $ubuntuFont;
-    text-align: center;
-    color: #1BC0DE;
-    text-decoration: underline;
-    text-decoration-color: #1BC0DE;
+h1 {
+  font-family: $ubuntuFont;
+  text-align: center;
+  color: #1bc0de;
+  text-decoration: underline;
+  text-decoration-color: #1bc0de;
 }
 
-.books{
-    background-color:#1BC0DE;
+.books {
+  background-color: #1bc0de;
 }
 
 .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  display: flex;
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  color: black;
+
+  .name {
+    font-size: initial;
+    color: white;
+    h3 {
+      font-family: $ubuntuFont;
+    }
+
+    p {
+      font-family: $cambayFont;
+    }
+    object-fit: contain;
+  }
+
+  .price {
+    text-decoration: underline;
+  }
+}
+
+.paragraphe {
+  font-size: 12px;
+  margin: auto;
+}
+.book {
+  // width: 50%;
+  height: 202px;
+  margin-right: 30px;
+  object-fit: contain;
+}
+
+/*-------------------------footer---------------------------*/
+
+footer {
+  background-color: #1bc0de;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  i {
+    color: white;
+    font-size: 30px;
+  }
+
+  h3 {
+    padding-top: 0px;
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .footer {
+    padding-left: 50px;
+    display: flex;
+    margin-top: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .filter {
+    display: flex;
+    justify-content: center;
+
+    input {
+      border-radius: 10px;
+      border: transparent;
+      box-shadow: 0px 0px 2px gray;
+      margin-left: 5px;
+    }
+
+    #search {
+      width: 54%;
+      height: 30px;
+    }
+
+    #max {
+      width: 6%;
+      height: 30px;
+      object-fit: contain;
+    }
+
+    #min {
+      width: 6%;
+      height: 30px;
+      object-fit: contain;
+    }
+
+    ::placeholder {
+      color: #1bc0de;
+      font-size: 14px;
+      font-family: $cambayFont;
+    }
+
+    button {
+      background-color: #1bc0de;
+      width: 15%;
+      height: 31px;
+      border-radius: 10px;
+      border: transparent;
+      box-shadow: 0px 0px 2px gray;
+      margin-left: 5px;
+      i {
+        color: white;
+      }
+    }
+  }
+
+  /*------------------------ books------------------------*/
+
+  h1 {
+    font-family: $ubuntuFont;
+    text-align: center;
+    color: #1bc0de;
+    text-decoration: underline;
+    text-decoration-color: #1bc0de;
+  }
+
+  .books {
+    background-color: #1bc0de;
+  }
+
+  .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     padding: 10px;
   }
 
@@ -89,237 +239,60 @@ h1{
     margin: auto;
     text-align: left;
     color: black;
-    
-    .name{
-        font-size: initial;
-        color: white;
-       h3{
-            font-family: $ubuntuFont;
-            
-       }
 
-       p{
-            font-family:$cambayFont 
-       }   
-       object-fit: contain;
-       
-    }
-
-    .price{
-        text-decoration: underline;
-    }
-  }
-  
-
-  
-  .paragraphe{
-      font-size: 12px;
-      margin: auto;
-  }
-  .book{
-	// width: 50%;
-    height: 202px;
-	margin-right: 30px;
-    object-fit: contain;
-}
-
-/*------------footer------------*/
-
-footer{
-    background-color: #1BC0DE;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    
-    i{
-        color: white;
-        font-size: 30px;
-        
-    }
-
-    h3{
-    padding-top: 0px;
-    padding-left: 10px;
-    color:white;
-    font-size: 15px;
-    }
-
-    .footer{
-        padding-left: 50px;
-        display: flex;
-        margin-top: 15px;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1200px){
-    .filter{
-        display: flex;
-        justify-content: center;
-        
-    
-        input{
-            border-radius: 10px;
-            border: transparent;
-            box-shadow: 0px 0px 2px gray;
-            margin-left: 5px;
-        }
-    
-        #search{
-            width: 54%;
-            height: 30px;
-        }
-    
-        #max{
-            width: 6%;
-            height: 30px;
-            object-fit: contain;
-        }
-
-        #min{
-            width: 6%;
-            height: 30px;
-            object-fit: contain;
-        }
-    
-        ::placeholder{
-            color: #1BC0DE;
-            font-size: 14px;
-            font-family: $cambayFont;
-        }
-    
-        button{
-            background-color:#1BC0DE ;
-            width: 15%;
-            height: 31px;
-            border-radius: 10px;
-            border: transparent;
-            box-shadow: 0px 0px 2px gray;
-            margin-left: 5px;
-            i{
-                color: white;
-            }
-        }
-    
-    }
-    
-    /*------------------------ books------------------------*/
-    
-    h1{
+    .name {
+      font-size: initial;
+      color: white;
+      h3 {
         font-family: $ubuntuFont;
-        text-align: center;
-        color: #1BC0DE;
-        text-decoration: underline;
-        text-decoration-color: #1BC0DE;
-    }
-    
-    .books{
-        background-color:#1BC0DE;
-    }
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto  ;
-        padding: 10px;
+        font-size: 20px;
       }
-      
-      .grid-item {
-        padding: 20px;
-        font-size: 30px;
-        display: flex;
-        width: 70%;
-        margin: auto;
-        text-align: left;
-        color: black;
-        
-        .name{
-            font-size: initial;
-            color: white;
-           h3{
-                font-family: $ubuntuFont;
-                font-size: 20px;
-                
-           }
-    
-           p{
-                font-family:$cambayFont 
-           }   
-           object-fit: contain;
-        }
+
+      p {
+        font-family: $cambayFont;
       }
-      
-      .paragraphe{
-          font-size: 12px;
-          margin: auto;
-      }
-      .book{
-        width: 50%;
-        height: 202px;
-        margin-right: 30px;
-        object-fit: contain;
+      object-fit: contain;
     }
-    
-    /*------------footer------------*/
-    
-    footer{
-        display: none;
-        // background-color: #1BC0DE;
-        // height: 50px;
-        // display: flex;
-        // justify-content: center;
-        // margin-top: 20px;
-        
-        // i{
-        //     color: white;
-        //     font-size: 30px;
-            
-        // }
-    
-        // h3{
-        // padding-top: 0px;
-        // padding-left: 10px;
-        // color:white;
-        // font-size: 15px;
-        // }
-    
-        // .footer{
-        //     padding-left: 50px;
-        //     display: flex;
-        //     margin-top: 15px;
-        // }
-    
-    }
-    
+  }
+
+  .paragraphe {
+    font-size: 12px;
+    margin: auto;
+  }
+  .book {
+    width: 50%;
+    height: 202px;
+    margin-right: 30px;
+    object-fit: contain;
+  }
+
+  /*-----------------------footer------------------------*/
+
+  footer {
+    display: none;
+    // background-color: #1BC0DE;
+    // height: 50px;
+    // display: flex;
+    // justify-content: center;
+    // margin-top: 20px;
+
+    // i{
+    //     color: white;
+    //     font-size: 30px;
+
+    // }
+
+    // h3{
+    // padding-top: 0px;
+    // padding-left: 10px;
+    // color:white;
+    // font-size: 15px;
+    // }
+
+    // .footer{
+    //     padding-left: 50px;
+    //     display: flex;
+    //     margin-top: 15px;
+    // }
+  }
 }
-
-
