@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/40c8b0b6ff.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<<<<<<< HEAD
     <div class="formulaire">
 
     <form class="adding" action="author_backend.php" method="POST">
@@ -83,4 +84,15 @@
 		<h3>************</h3>
 	</div>
 </footer>
+=======
+    <form action="adding">
+        <label for="name-author"></label>
+        <input type="text" id="name" placeholder="Add the author's name">
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Add the author's name">
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Add the author's name">
+    </form>
+</body>
+>>>>>>> ac954e1f679209c27d9904adeedb0d422049f248
 </html>

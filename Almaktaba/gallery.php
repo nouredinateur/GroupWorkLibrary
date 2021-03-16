@@ -11,6 +11,7 @@
 </head>
 <body>
 <div class="filter">
+<<<<<<< HEAD
     <!-- <label for="search"></label>
     <input type="text" id="search" placeholder="Search"> -->
     <select class="authors" name="author" id="authors" form="authorform" onchange="filter()">
@@ -26,6 +27,16 @@
     <input type="number" id="max" placeholder="Max">
     <label for="submit"></label>
     <button type="submit" onclick="pricee()"><i class="fa fa-search" ></i></button>
+=======
+    <label for="search"></label>
+    <input type="text" id="search" placeholder="Search">
+    <label for="min"></label>
+    <input type="number" id="max" placeholder="Min">
+    <label for="max"></label>
+    <input type="number" id="max" placeholder="Max">
+    <label for="submit"></label>
+    <button type="submit"><i class="fa fa-search"></i></button>
+>>>>>>> ac954e1f679209c27d9904adeedb0d422049f248
 </div>
 
 <!-- Books -->
@@ -34,6 +45,7 @@
 
 <div class="books">
      <div class="grid-container">
+<<<<<<< HEAD
         <div class="grid-item" name="book">
             <img class="book" src="img/1.jpg" alt="book1">
             <div class="name">
@@ -90,6 +102,53 @@
                <p name="writer">Yuval Noah Harari</p>
                <p class="price">9$</p>
 
+=======
+        <div class="grid-item">
+            <img class="book" src="img/1.jpg" alt="book1">
+            <div class="name">
+               <h3>Life of Pi</h3>
+               <p>Yann Martel</p>
+            </div>
+         </div>
+
+         <div class="grid-item">
+            <img class="book" src="img/2.jpg" alt="book2">
+            <div class="name">
+               <h3>Cosmos</h3>
+               <p>Carl Sagan</p>
+            </div>
+         </div>
+
+         <div class="grid-item">
+            <img class="book" src="img/3.jpg" alt="book3">
+            <div class="name">
+               <h3>Astrophysics</h3>
+               <p>Neil deGrasse Tyson</p>
+            </div>
+         </div>
+
+         <div class="grid-item">
+            <img class="book" src="img/SI.jpg" alt="book4">
+            <div class="name">
+               <h3>A Brief </h3>
+               <p>Stephen Hawking</p>
+            </div>
+         </div>
+
+         <div class="grid-item">
+            <img class="book" src="img/5.jpg" alt="book5">
+            <div class="name">
+               <h3>Arsène Lupin</h3>
+               <p>Maurice Leblanc</p>
+            </div>
+         </div>
+
+         <div class="grid-item">
+            <img class="book" src="img/6.jpg" alt="book6">
+            <div class="name">
+               <h3>Sapiens</h3>
+               <p>Yuval Noah Harari</p>
+>>>>>>> ac954e1f679209c27d9904adeedb0d422049f248
             </div>
          </div>
      </div>
@@ -116,5 +175,8 @@
 		<h3>************</h3>
 	</div>
 </footer>
+<<<<<<< HEAD
 <script src="javascript/gallery.js"></script>
+=======
+>>>>>>> ac954e1f679209c27d9904adeedb0d422049f248
 </html>
